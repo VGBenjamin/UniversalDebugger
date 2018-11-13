@@ -12,7 +12,7 @@ Very useful for debugging of course.
 * Copy those files to the root of your site
 * Open the page http[s]://YOUR_HOST/universaldebugger.aspx?security=YOUR_SECURITY_GUID
 
-**Remark: **
+**Remark:**
 `<httpRuntime requestValidationMode="4.5" />`
 need to be set to your web.config to allow the postback of the code. If you didn't set it you will have an error like "A potentially dangerous Request.Form value was detected from the client"
 
